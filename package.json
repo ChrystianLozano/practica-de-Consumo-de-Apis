@@ -1,0 +1,22 @@
+{
+  "name": "practica-consumo-de-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrystianLozano/practica-de-Consumo-de-Apis.git"
+  },
+  "keywords": [
+    "movies"
+  ],
+  "author": "Chrystian Lozano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrystianLozano/practica-de-Consumo-de-Apis/issues"
+  },
+  "homepage": "https://github.com/ChrystianLozano/practica-de-Consumo-de-Apis#readme"
+}
