@@ -79,5 +79,3 @@ async function getCategoriesMoviesPreview(){
     });
 }
 
-getCategoriesMoviesPreview()
-getTrendingMoviesPreview()
