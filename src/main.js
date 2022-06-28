@@ -14,6 +14,8 @@ async function getTrendingMoviesPreview(){
     // const res = await api('/trending/movie/day')
 
     const {data} = await api('/trending/movie/day')
+
+    trendingMoviesPreviewList.innerHTML = ""
     
     // const data = await res.json()
     
@@ -21,7 +23,6 @@ async function getTrendingMoviesPreview(){
     const movies = data.results;
     
     movies.forEach(movie => {
-        const trendingMoviesPreviewList = document.querySelector('#trendingPreview .trendingPreview-movieList')
 
         
         
@@ -50,12 +51,13 @@ async function getCategoriesMoviesPreview(){
 
     // const data = await res.json()
 
+    categoriesPreviewList.innerHTML = ""
 
 
     const categories = data.genres;
     
     categories.forEach(categori => {
-        const categoriesPreviewList = document.querySelector('#categoriesPreview .categoriesPreview-list')
+        
 
         
         
